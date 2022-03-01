@@ -1,5 +1,8 @@
 #!/usr/bin/node
-const s = ['C is fun', 'Python is cool', 'Javascript is amazing'];
-for (let i = 0; i < 3; i++) {
-  console.log(s[i]);
+/*
+  print 3 lines with loop
+*/
+const args = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+for (const line of args) {
+  console.log(line);
 }
